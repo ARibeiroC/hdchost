@@ -15,7 +15,7 @@
     <header>
         <nav class="navbar-container"> 
             <a href="/" class="logo-container">
-                <img src="./src/img/logotipo-removebg-preview.png" alt="Logotipo do hDC" class="logo">
+                <img src="./src/img/logotipo-removebg-preview.png" alt="Logotipo do hDC" class="logo" loading="eager" fetchpriority="high" decoding="async">
             </a>
             <ul class="navbar-items">
                 <li>
@@ -34,27 +34,27 @@
         </nav>
     </header>
     <main>
-        <div class="main-banner">
+        <div class="main-banner lazy-bg" data-bg="./src/img/bg.jpg">
             <h1>hDC Host</h1>
             <p>Hospedagem de sites, servidores e muito mais!</p>
         </div>
-        <section class="services-container">
+        <section class="services-container reveal-on-scroll">
             <ul>
-                <li>
+                <li class="reveal-on-scroll" style="--reveal-delay: 0ms;">
                     <i class="fas fa-shield-alt"></i>
                     <h3>Segurança</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consectetur doloribus cumque aut voluptatem odio sit mollitia vero iste quaerat enim quis, sed quos fuga ad optio commodi error nobis?
                     </p>
                 </li>
-                <li>
+                <li class="reveal-on-scroll" style="--reveal-delay: 120ms;">
                     <i class="fas fa-rocket"></i>
                     <h3>Performance</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consectetur doloribus cumque aut voluptatem odio sit mollitia vero iste quaerat enim quis, sed quos fuga ad optio commodi error nobis?
                     </p>
                 </li>
-                <li>
+                <li class="reveal-on-scroll" style="--reveal-delay: 240ms;">
                     <i class="fas fa-comments"></i>
                     <h3>Suporte 24/7</h3>
                     <p>
@@ -63,69 +63,72 @@
                 </li>
             </ul>
         </section>
-        <section class="pricing-container">
+        <section class="pricing-container reveal-on-scroll">
             <h2>Planos e Preços</h2>
             <p>Seleciona o plano que atende as suas necessidades.</p>
             <div class="plans-container">
-                <div class="plan">
+                <div class="plan reveal-on-scroll" style="--reveal-delay: 0ms;">
                     <ul>
+                        
+                        <li class="plan-name">
+                            Plano Básico
+                        </li>
                         <li class="price">R$ 19,99/mês</li>
-                        <li class="plan-name">Plano Básico</li>
                         <li>2GB de armazenamento</li>
                         <li>1 subdomínio</li>
                         <li>25 contas de e-mail</li>
                         <li>C-panel</li>
                         <li>Suporte 24/7</li>
                         <li class="plan-btn">
-                            Saber mais
+                            Escolher plano
                         </li>
                     </ul>
                 </div>
-                <div class="plan">
+                <div class="plan reveal-on-scroll" style="--reveal-delay: 120ms;">
                     <ul>
-                        <li class="price">R$ 30,99/mês</li>
                         <li class="plan-name">Dedicado</li>
+                        <li class="price">R$ 30,99/mês</li>
                         <li>5GB de armazenamento</li>
                         <li>10 subdomínio</li>
                         <li>50 contas de e-mail</li>
                         <li>C-panel</li>
                         <li>Suporte 24/7</li>
                         <li class="plan-btn">
-                            Saber mais
+                            Escolher plano
                         </li>
                     </ul>
                 </div>
-                <div class="plan">
+                <div class="plan reveal-on-scroll" style="--reveal-delay: 240ms;">
                     <ul>
-                        <li class="price recommended">R$ 55,99/mês</li>
                         <li class="plan-name">Dedicados Plus</li>
+                        <li class="price recommended">R$ 55,99/mês</li>
                         <li>10GB de armazenamento</li>
                         <li>2 0 subdomínios</li>
                         <li>100 contas de e-mail</li>
                         <li>C-panel</li>
                         <li>Suporte 24/7</li>
                         <li class="plan-btn recommended">
-                            Saber mais
+                            Escolher plano
                         </li>
                     </ul>
                 </div>
-                <div class="plan">
+                <div class="plan reveal-on-scroll" style="--reveal-delay: 360ms;">
                     <ul>
-                        <li class="price">R$ 99,99/mês</li>
                         <li class="plan-name ">Cloud</li>
+                        <li class="price">R$ 99,99/mês</li>
                         <li>20GB de armazenamento</li>
                         <li>50 subdomínios</li>
                         <li>200 contas de e-mail</li>
                         <li>C-panel</li>
                         <li>Suporte 24/7</li>
                         <li class="plan-btn">
-                            Saber mais
+                            Escolher plano
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section class="search-domain-container">
+        <section class="search-domain-container reveal-on-scroll">
             <h2>Encontre o domínio perfeito para o seu site</h2>
             <p>Pesquise e registre seu domínio com facilidade.</p>
             <form>
@@ -137,7 +140,7 @@
                 <button>Procurar domínio</button>
             </form>
         </section>
-        <section class="contact-container">
+        <section class="contact-container reveal-on-scroll">
             <h2>Mande uma mensagem</h2>
             <p>Envie sua mensagem e entraremos em contato em breve.</p>
             <form>
@@ -161,7 +164,7 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="reveal-on-scroll">
         <p>&copy; 2024 hDC Host. Todos os direitos reservados.</p>
     </footer>
 </body>
