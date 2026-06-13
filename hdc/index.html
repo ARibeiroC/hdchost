@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hDC Host</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script type="module" src="./src/js/script.js"></script>
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-container"> 
+            <a href="/" class="logo-container">
+                <img src="./src/img/logotipo-removebg-preview.png" alt="Logotipo do hDC" class="logo">
+            </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Preços</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+                <li class="default-btn-container">
+                    <a href="#" class="default-btn">Entrar</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-banner">
+            <h1>hDC Host</h1>
+            <p>Hospedagem de sites, servidores e muito mais!</p>
+        </div>
+        <section class="services-container">
+            <ul>
+                <li>
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Segurança</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consectetur doloribus cumque aut voluptatem odio sit mollitia vero iste quaerat enim quis, sed quos fuga ad optio commodi error nobis?
+                    </p>
+                </li>
+                <li>
+                    <i class="fas fa-rocket"></i>
+                    <h3>Performance</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consectetur doloribus cumque aut voluptatem odio sit mollitia vero iste quaerat enim quis, sed quos fuga ad optio commodi error nobis?
+                    </p>
+                </li>
+                <li>
+                    <i class="fas fa-comments"></i>
+                    <h3>Suporte 24/7</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi consectetur doloribus cumque aut voluptatem odio sit mollitia vero iste quaerat enim quis, sed quos fuga ad optio commodi error nobis?
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="pricing-container">
+            <h2>Planos e Preços</h2>
+            <p>Seleciona o plano que atende as suas necessidades.</p>
+            <div class="plans-container">
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$ 19,99/mês</li>
+                        <li class="plan-name">Plano Básico</li>
+                        <li>2GB de armazenamento</li>
+                        <li>1 subdomínio</li>
+                        <li>25 contas de e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">
+                            Saber mais
+                        </li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$ 30,99/mês</li>
+                        <li class="plan-name">Dedicado</li>
+                        <li>5GB de armazenamento</li>
+                        <li>10 subdomínio</li>
+                        <li>50 contas de e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">
+                            Saber mais
+                        </li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="price recommended">R$ 55,99/mês</li>
+                        <li class="plan-name">Dedicados Plus</li>
+                        <li>10GB de armazenamento</li>
+                        <li>2 0 subdomínios</li>
+                        <li>100 contas de e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn recommended">
+                            Saber mais
+                        </li>
+                    </ul>
+                </div>
+                <div class="plan">
+                    <ul>
+                        <li class="price">R$ 99,99/mês</li>
+                        <li class="plan-name ">Cloud</li>
+                        <li>20GB de armazenamento</li>
+                        <li>50 subdomínios</li>
+                        <li>200 contas de e-mail</li>
+                        <li>C-panel</li>
+                        <li>Suporte 24/7</li>
+                        <li class="plan-btn">
+                            Saber mais
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="search-domain-container">
+            <h2>Encontre o domínio perfeito para o seu site</h2>
+            <p>Pesquise e registre seu domínio com facilidade.</p>
+            <form>
+                <input 
+                type="text"
+                name="domain"
+                id="domain"
+                placeholder="Digite o nome do domínio">
+                <button>Procurar domínio</button>
+            </form>
+        </section>
+        <section class="contact-container">
+            <h2>Mande uma mensagem</h2>
+            <p>Envie sua mensagem e entraremos em contato em breve.</p>
+            <form>
+                <input 
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Seu nome">
+                <input 
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Seu e-mail">
+                <textarea 
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Descreva o que você precisa ou o seu projeto..."></textarea>
+                <button>Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 hDC Host. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

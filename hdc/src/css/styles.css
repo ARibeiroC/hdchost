@@ -1,0 +1,57 @@
+@import url('nav.css');
+@import url('services.css');
+@import url('pricing.css');
+@import url('search-domain.css');
+@import url('footer.css');
+@import url('contact.css');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    color: #70744a;
+}
+
+
+.main-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: url('../img/bg.jpg');
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    height: 80vh;
+}
+
+
+.main-banner h1, .main-banner p {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 2px 3px #000;
+}
+
+.main-banner h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.main-banner p {
+    font-size: 1.5rem;
+}

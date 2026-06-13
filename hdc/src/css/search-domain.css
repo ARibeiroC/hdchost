@@ -1,0 +1,49 @@
+.search-domain-container{
+    background-color: #34454e;
+    text-align: center;
+    padding: 5rem 0;
+
+    h2{
+        color: #fff;
+        font-size: 2.625rem;
+        margin-bottom: 0.9375rem;
+    }
+
+    p{
+        color: #d5d5d5;
+        font-size: 1.5rem;
+        margin-bottom: 1.5625rem;
+    }
+
+    form{
+
+        input{
+            display: block;
+            border: none;
+            border-radius: 5px;
+            margin: 0 auto;
+            width: 60%;
+            padding: 20px;
+            font-size: 20px;
+            margin-bottom: 25px;
+        }
+
+        /* input[type="text"]{
+
+        } */
+
+        button{
+            background-color: #24a859;
+            border: none;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 24px;
+            cursor: pointer;
+            transition: 0.3s ease;
+
+            &:hover{
+                background-color: #2cc76a;
+            }
+        }
+    }
+}
