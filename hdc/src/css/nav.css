@@ -13,7 +13,8 @@ nav{
 }
 
 .navbar-items {
-    display: inline-block;
+    display: flex;
+    gap: 1rem;
 
     height: 80px;
     line-height: 80px;
@@ -23,7 +24,6 @@ nav{
 .navbar-items li {
     display: inline-block;
     text-transform: uppercase;
-    margin-left: 1.8rem;
     transition: .5s;
 }
 

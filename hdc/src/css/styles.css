@@ -4,6 +4,7 @@
 @import url('search-domain.css');
 @import url('footer.css');
 @import url('contact.css');
+@import url('responsivite.css');
 
 * {
     padding: 0;

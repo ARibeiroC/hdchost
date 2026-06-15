@@ -16,16 +16,18 @@
     }
 
     form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
 
         input{
             display: block;
             border: none;
-            border-radius: 5px;
-            margin: 0 auto;
-            width: 60%;
-            padding: 20px;
-            font-size: 20px;
-            margin-bottom: 25px;
+            border-radius: 0.3125rem;
+            padding: 1.25rem;
+            font-size: 1.25rem;
         }
 
         /* input[type="text"]{
@@ -35,11 +37,13 @@
         button{
             background-color: #24a859;
             border: none;
+            border-radius: 0.3125rem;
             color: #fff;
-            padding: 15px 30px;
-            font-size: 24px;
+            padding: 0.9375rem 1.875rem;
+            font-size: 1.5rem;
             cursor: pointer;
             transition: 0.3s ease;
+            
 
             &:hover{
                 background-color: #2cc76a;

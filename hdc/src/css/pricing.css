@@ -13,6 +13,7 @@
 
     .plans-container{
         display: flex;
+        gap: 1rem;
         justify-content: space-between;
         width: 90%;
         margin: 3.12rem auto 0;
@@ -20,7 +21,7 @@
         .plan {
             flex: 1;
             max-width: 17.18rem;
-            margin: 0 1.25rem;
+            min-width: 12.5rem;
             transition: transform 0.3s ease-in-out;
 
             ul {
